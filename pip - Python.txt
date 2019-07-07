@@ -1,0 +1,25 @@
+pip
+
+pip list
+
+python --version
+python -m pip install --upgrade pip
+
+
+# ------------------------------------------------
+# upgrad all
+
+https://codeselfstudy.com/blog/how-to-upgrade-all-pip-packages-python/
+
+pip freeze > pip_frozen.txt
+pip install -r pip_frozen.txt --upgrade
+
+
+# ------------------------------------------------
+# install package
+
+https://packaging.python.org/tutorials/installing-packages/
+python -m pip install --upgrade pip setuptools wheel
+
+example: https://seaborn.pydata.org/installing.html
+pip install seaborn
